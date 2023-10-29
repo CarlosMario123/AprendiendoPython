@@ -112,4 +112,23 @@ se usa para saber cuantas veces aparace un elementos con ese mismo valor pasado 
 
 """
 
+
+
 print("las veces que aparece max en la lista: ",mascotas.count("Max"))
+
+
+""" 
+Metodos para agregar elementos en un arreglo:
+
+.insert(posicion,elemento)
+.append(elemento)
+
+metodos para eliminar elementos:
+.append(elemento a eliminar)
+
+.pop(indice)
+
+del arreglo[index]
+
+.clear() --> este el mas cabron por que elimina todo el arreglo jsjsj
+"""
