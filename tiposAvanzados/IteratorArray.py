@@ -1,0 +1,2 @@
+def pagado():
+    print("pagado")
