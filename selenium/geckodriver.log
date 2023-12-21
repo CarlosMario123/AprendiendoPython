@@ -1,0 +1,445 @@
+1703180756236	geckodriver	INFO	Listening on 127.0.0.1:52962
+1703180919109	geckodriver	INFO	Listening on 127.0.0.1:53114
+1703180922167	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53115" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofileGRJpSs"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703180922500	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703180922562	Marionette	INFO	Listening on port 53123
+WebDriver BiDi listening on ws://127.0.0.1:53115
+Read port: 53123
+1703180922752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53115/devtools/browser/f428f6ed-e65b-417f-b2bb-bf6ec63e493c
+1703180925399	Marionette	INFO	Stopped listening on port 53123
+Dynamically enable window occlusion 1
+1703180951822	geckodriver	INFO	Listening on 127.0.0.1:53188
+1703180954887	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53189" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofilezKqMxg"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703180955198	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703180955257	Marionette	INFO	Listening on port 53196
+WebDriver BiDi listening on ws://127.0.0.1:53189
+Read port: 53196
+1703180955419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53189/devtools/browser/f554c8f3-8806-450b-86a5-e28fbe0466d3
+1703180958519	Marionette	INFO	Stopped listening on port 53196
+Dynamically enable window occlusion 1
+1703181112319	geckodriver	INFO	Listening on 127.0.0.1:53281
+1703181115382	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53282" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofile7qNMqp"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703181115675	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703181115735	Marionette	INFO	Listening on port 53289
+WebDriver BiDi listening on ws://127.0.0.1:53282
+Read port: 53289
+1703181115890	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53282/devtools/browser/121db337-3b85-49bf-96ee-ca8237a77c84
+1703181146698	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+Exiting due to channel error.
+Listening on 127.0.0.1:53396
+1703181291780	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53397" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofile2zvt4E"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703181292091	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703181292152	Marionette	INFO	Listening on port 53412
+WebDriver BiDi listening on ws://127.0.0.1:53397
+Read port: 53412
+1703181292307	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53397/devtools/browser/46cf9db8-516e-4b19-a23c-4115025201df
+1703181297229	Marionette	INFO	Stopped listening on port 53412
+JavaScript warning: https://www.mercadolibre.com.mx/, line 5: Script terminated by timeout at:
+nrWrapper@https://www.mercadolibre.com.mx/:5:16163
+
+Dynamically enable window occlusion 1
+1703182367558	geckodriver	INFO	Listening on 127.0.0.1:53671
+1703182370650	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53672" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofile4JGRaC"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703182371014	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703182371075	Marionette	INFO	Listening on port 53679
+WebDriver BiDi listening on ws://127.0.0.1:53672
+Read port: 53679
+1703182371242	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53672/devtools/browser/cada2c8b-b083-4edf-a643-fecac3d86367
+1703182376106	Marionette	INFO	Stopped listening on port 53679
+Dynamically enable window occlusion 1
+1703182441137	geckodriver	INFO	Listening on 127.0.0.1:53750
+1703182444186	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53751" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofileH9yzw5"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703182444473	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703182444546	Marionette	INFO	Listening on port 53758
+WebDriver BiDi listening on ws://127.0.0.1:53751
+Read port: 53758
+1703182444718	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53751/devtools/browser/ffcf35f7-718f-43d7-9545-2a04b7ea7eca
+1703182449205	Marionette	INFO	Stopped listening on port 53758
+JavaScript warning: https://js-agent.newrelic.com/nr-spa-recorder-1.249.0.min.js, line 2: Script terminated by timeout at:
+clear@https://js-agent.newrelic.com/nr-spa-recorder-1.249.0.min.js:2:79159
+4019/periodicallyClear/<@https://js-agent.newrelic.com/nr-spa-recorder-1.249.0.min.js:2:78925
+
+Dynamically enable window occlusion 1
+1703182533071	geckodriver	INFO	Listening on 127.0.0.1:53852
+1703182536126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53853" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofileikH5sN"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703182536471	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703182536538	Marionette	INFO	Listening on port 53862
+WebDriver BiDi listening on ws://127.0.0.1:53853
+Read port: 53862
+1703182536702	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53853/devtools/browser/7da3b288-411c-4ba9-93d0-24b7bbf28350
+1703182541075	Marionette	INFO	Stopped listening on port 53862
+JavaScript warning: https://www.mercadolibre.com.mx/, line 5: Script terminated by timeout at:
+nrWrapper@https://www.mercadolibre.com.mx/:5:16163
+
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/UrlClassifierListManager.sys.mjs, line 720: TypeError: this.tablesData[table] is undefined
+1703182725507	geckodriver	INFO	Listening on 127.0.0.1:53973
+1703182728570	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53974" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofileGFQ8c7"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703182728901	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703182728971	Marionette	INFO	Listening on port 53981
+WebDriver BiDi listening on ws://127.0.0.1:53974
+Read port: 53981
+1703182729139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53974/devtools/browser/65baffc1-c0c4-49ec-83b0-132b0d8f8f94
+1703182733345	Marionette	INFO	Stopped listening on port 53981
+JavaScript warning: https://js-agent.newrelic.com/nr-spa-recorder-1.249.0.min.js, line 2: Script terminated by timeout at:
+4019/periodicallyClear/<@https://js-agent.newrelic.com/nr-spa-recorder-1.249.0.min.js:2:78920
+
+Dynamically enable window occlusion 1
+1703182833491	geckodriver	INFO	Listening on 127.0.0.1:54072
+1703182853872	geckodriver	INFO	Listening on 127.0.0.1:54082
+1703182856924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "54083" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofiletNyb1H"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703182857210	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703182857275	Marionette	INFO	Listening on port 54090
+WebDriver BiDi listening on ws://127.0.0.1:54083
+Read port: 54090
+1703182857436	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:54083/devtools/browser/b0130801-6007-4324-9307-47f0ca1f2435
+1703182861989	Marionette	INFO	Stopped listening on port 54090
+JavaScript warning: https://js-agent.newrelic.com/nr-spa-recorder-1.249.0.min.js, line 2: Script terminated by timeout at:
+4019/periodicallyClear/<@https://js-agent.newrelic.com/nr-spa-recorder-1.249.0.min.js:2:78920
+
+Dynamically enable window occlusion 1
+1703183948602	geckodriver	INFO	Listening on 127.0.0.1:54540
+1703183951723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54541" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofileFkk44q"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703183952311	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703183952437	Marionette	INFO	Listening on port 54549
+WebDriver BiDi listening on ws://127.0.0.1:54541
+Read port: 54549
+1703183952688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54541/devtools/browser/db828edf-d2ea-4b81-8d29-7b7d1d16aaee
+1703183983133	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703184000093	Marionette	INFO	Stopped listening on port 54549
+Dynamically enable window occlusion 1
+1703184334972	geckodriver	INFO	Listening on 127.0.0.1:54914
+1703184338065	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54915" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofileDf9HmS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703184339000	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703184339210	Marionette	INFO	Listening on port 54925
+WebDriver BiDi listening on ws://127.0.0.1:54915
+Read port: 54925
+1703184339625	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54915/devtools/browser/7fc05647-22c3-417c-af58-b306499dd1d2
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703184369075	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz, line 276: Script terminated by timeout at:
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:276:113
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1703184940545	Marionette	INFO	Stopped listening on port 54925
+Dynamically enable window occlusion 1
+ setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703184595407	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703184595667	Marionette	INFO	Listening on port 55033
+WebDriver BiDi listening on ws://127.0.0.1:55025
+Read port: 55033
+1703184595956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55025/devtools/browser/e401c848-722e-4efb-9648-bb9f41b75bf1
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703184626863	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703184931907	Marionette	INFO	Stopped listening on port 55033
+Dynamically enable window occlusion 1
+1703185190804	geckodriver	INFO	Listening on 127.0.0.1:55247
+1703185193876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55248" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofilej3GGEK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703185194277	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703185194360	Marionette	INFO	Listening on port 55255
+WebDriver BiDi listening on ws://127.0.0.1:55248
+Read port: 55255
+1703185194593	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55248/devtools/browser/24569573-caae-4e58-9bae-dbd46e28ea5a
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703185225093	addons.xpi	ERROR	System addon update list erro1703185225666	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exconsole.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703185229532	Marionette	INFO	Stopped listening on port 55255
+Dynamically enable window occlusion 1
+O	Listening on port 55319
+WebDriver BiDi listening on ws://127.0.0.1:55309
+Read port: 55319
+1703185226260	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55309/devtools/browser/384a85ff-ea0b-4b0a-b300-e6e97a21e744
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703185256518	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz, line 276: Script terminated by timeout at:
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:276:113
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal6442450945/domnode151, type setNodeValue failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:300:14
+generateRequestMethods/</frontProto[name]@resource://devtoolDevTools listening on ws://127.0.0.1:55427/devtools/browser/23f0abc2-aa72-497f-901c-db21f26359a9
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703185514342	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703185522501	Marionette	INFO	Stopped listening on port 55435
+Dynamically enable window occlusion 1
+1703185593989	geckodriver	INFO	Listening on 127.0.0.1:55496
+1703185597066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55497" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofileWLQTuQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703185597401	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703185597486	Marionette	INFO	Listening on port 55504
+WebDriver BiDi listening on ws://127.0.0.1:55497
+Read port: 55504
+1703185597658	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55497/devtools/browser/4641f309-9d7e-4389-aeec-156958be5432
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1703185628023	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz, line 276: Script terminated by timeout at:
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:276:113
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal6442450949/domnode181, type setNodeValue failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:300:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19
+showTextEditor/done/</<@resource://devtools/client/inspector/markup/views/text-editor.js:103:25
+do@resource://devtools/client/shared/undo.js:70:16
+endBatch@resource://devtools/client/shared/undo.js:81:11
+do@resource://devtools/client/shared/undo.js:93:10
+showTextEditor/done/<@resource://devtools/client/inspector/markup/views/text-editor.js:101:31
+
+1703185727359	Marionette	INFO	Stopped listening on port 55504
+Dynamically enable window occlusion 1
+x.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:313:3661
+o@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:314:1092
+@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:314:1174
+a@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:319:191
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:63:10432
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:218:528
+j@https://static.xx.fbcdn.net/rsrc.php/v3iYdq4/yi/l/es_LA/VOBFpi2zoQs.js?_nc_x=Ij3Wp8lg5Kz:3:355
+k@https://static.xx.fbcdn.net/rsrc.php/v3iYdq4/yi/l/es_LA/VOBFpi2zoQs.js?_nc_x=Ij3Wp8lg5Kz:3:603
+d/<@https://static.xx.fbcdn.net/rsrc.php/v3iYdq4/yi/l/es_LA/VOBFpi2zoQs.js?_nc_x=Ij3Wp8lg5Kz:3:1214
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:63:10432
+b.$5@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:76:1000
+a.$5@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:76:3068
+c@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:76:715
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:63:10432
+c.__emitToSubscription@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:72:1477
+c.emit@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:72:1303
+b.emitAndHold@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:74:1043
+b.inform@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:76:1663
+a.inform@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:76:2681
+l/window.onunload<@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:320:867
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:63:10432
+d@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:327:2086
+
+1703185631135	Marionette	INFO	Stopped listening on port 55560
+Dynamically enable window occlusion 1
+1703185735373	geckodriver	INFO	Listening on 127.0.0.1:55630
+1703185738448	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55631" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofilezMDDrq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703185738762	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703185738847	Marionette	INFO	Listening on port 55638
+WebDriver BiDi listening on ws://127.0.0.1:55631
+Read port: 55638
+1703185739042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55631/devtools/browser/54200428-a3c5-490e-ab10-d9c6068cb55c
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1703185756096	Marionette	INFO	Stopped listening on port 55638
+Dynamically enable window occlusion 1
+1703186022753	geckodriver	INFO	Listening on 127.0.0.1:55746
+1703186025837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55747" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofilebYYZxs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703186026142	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703186026225	Marionette	INFO	Listening on port 55754
+WebDriver BiDi listening on ws://127.0.0.1:55747
+Read port: 55754
+1703186026408	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55747/devtools/browser/02d39908-3aa6-4a8b-ba8c-1697cfd50c3f
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1703186056322	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1703186128808	Marionette	INFO	Stopped listening on port 55754
+Dynamically enable window occlusion 1
+/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1703186129991	Marionette	INFO	Stopped listening on port 55838
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55898" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofilehuWnw9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703186129989	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703186130138	Marionette	INFO	Listening on port 55907
+WebDriver BiDi listening on ws://127.0.0.1:55898
+Read port: 55907
+1703186130359	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55898/devtools/browser/cac0a1ff-1ba7-468c-813b-b999f108d5ac
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1703186162060	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz, line 63: Script terminated by timeout at:
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:63:10170
+w@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:327:511
+d@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/MbkC-2_EJ0h.js?_nc_x=Ij3Wp8lg5Kz:327:1683
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1703186985817	Marionette	INFO	Stopped listening on port 55907
+Dynamically enable window occlusion 1
+ook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1703186186189	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703186986775	Marionette	INFO	Stopped listening on port 55966
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56149" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\car06\\AppData\\Local\\Temp\\rust_mozprofileJZ6UPK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703186547599	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703186547690	Marionette	INFO	Listening on port 56158
+WebDriver BiDi listening on ws://127.0.0.1:56149
+Read port: 56158
+1703186547897	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56149/devtools/browser/02d3bb47-bcc1-40d5-87b4-a02792ae65cd
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iLCl4/yq/l/es_LA/D3XrCjdXtFY.js?_nc_x=Ij3Wp8lg5Kz, line 19: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1703186579180	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703186988615	Marionette	INFO	Stopped listening on port 56158
+Dynamically enable window occlusion 1
