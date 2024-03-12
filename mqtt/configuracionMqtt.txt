@@ -1,0 +1,15 @@
+sudo apt update  -->actualizamos los paqutes
+sudo apt install mosquitto mosquitto-clients   --->instlacion de mosquito
+
+
+sudo systemctl start mosquitto-->encender el servidor mosquito
+sudo systemctl status mosquito  -> verificamos el status
+
+
+sudo nano /etc/mosquitto/mosquitto.conf-->editamos
+
+sudo systemctl restart mosquitto-->reiniciamos el servidor para los cambios
+
+
+si deseamos implementar usuario y contraseñas  creamos con el siguiente comando
+sudo mosquitto_passwd -c /etc/mosquitto/passwords nameUser

@@ -1,0 +1,14 @@
+La biblioteca keyboard de Python ofrece varios métodos para trabajar con eventos del teclado. Aquí tienes una descripción general de algunos de los métodos más comunes:
+
+keyboard.on_press(callback): Permite registrar una función callback que se ejecutará cada vez que se presione una tecla.
+keyboard.on_release(callback): Registra una función callback que se ejecutará cada vez que se suelte una tecla.
+keyboard.hook(callback): Este método se utiliza para escuchar eventos del teclado. Se ejecuta la función callback cada vez que se produce un evento de teclado.
+keyboard.wait(combination=None): Espera hasta que se presione una tecla. Puedes proporcionar una combinación de teclas específica para esperar esa combinación en particular.
+keyboard.read_event(): Lee un evento del teclado.
+keyboard.write(text): Simula la escritura de texto en el teclado.
+keyboard.press(key) y keyboard.release(key): Simulan la presión y liberación de una tecla específica.
+Estos métodos te permiten capturar eventos de teclado, simular la entrada de teclado y realizar acciones basadas en las teclas presionadas o soltadas. Cada uno de ellos tiene un propósito específico para interactuar con el teclado en el sistema operativo.
+
+
+
+
