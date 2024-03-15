@@ -1,0 +1,41 @@
+desplegar fastapi en ec2
+
+-el primer paso es solo configurar y lanzar la instancia en ec2
+-despues de haber lanzado la instancia podemos acceder ala terminal para poder realizar configuracion
+-actualizamos paquetes con sudo apt update
+-procedemos a instalar python sudo apt install python3 python3-pip
+
+-en mi caso utilize git para clonar un repositorio de un servidor en python y tuve que instalar git
+sudo apt install git
+
+-instalar los paquetes necesarios para correr nuestra app de python o instalar el requirements.tx
+pip install -r requirements.txt
+
+-otro paso importante es que nuestra app de python este instalado gunicorn
+
+-instalar nginx para montar el servidor junto gunicorn para el servidor para python
+sudo apt install nginx gunicorn
+
+-realizamos una configuracion el servidor nginx entonces usamos nano y editamos el archivo default
+sudo nano /etc/nginx/sites-available/default
+
+-en el archivo remplazamos por esta informacion:
+server {
+    listen 80;
+    server_name _;  # Comodín para todas las solicitudes
+
+    location / {
+        proxy_pass http://127.0.0.1:8000;  # Puerto donde está ejecutando Gunicorn
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+-reiniciamos el servidor nginx
+sudo systemctl reload nginx
+
+
+-luego nos ubicamos en la carpeta de nuestro proyecto y ejecutamos 
+uvicorn app:app --host 0.0.0.0 --port 8000
+nota no es necesario app puedes tener otro nombre y remplazarlo ojo es el primer app
