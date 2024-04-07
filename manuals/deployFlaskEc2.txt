@@ -1,0 +1,58 @@
+para desplegar una aplicacion de flask en el servidor ec2
+
+-nginx
+-python
+-dependencias importantes
+pip install uwsgi
+
+uwsqui nos permitira ejecutar en segundo plano nuestra app de flask
+recordando que uwsgi lo ejecutara en segundo plano pero en localhost ahi en donde entra nginx
+para redirecionarlo cuando se solicite hacer llamadas al servidor
+
+una vez instalado todo lo anterior nos ubicamos en la misma ruta de archivo de ejecucion principal de
+flask de nuestro proyecto al estar en el mismo directorio creamos un archivo llamado
+
+myapp.ini --> el nombre es ineseario pero la terminacion si debe ser asi
+
+una vez creado añadiremos este resto de informacion:
+###########################################33
+[uwsgi]
+module = app:app -->el primer app puede ser sustituiddo por el archivo principal de nuestra app en flask
+master = true
+processes = 5
+socket = :8000 --> se ejecutara en el puerto 8000 pero nosotros podemos selecionar el puerto de nuestro preferencias 
+chmod-socket = 660
+vacuum = true
+die-on-term = true
+############################333
+
+una vez realizado la configuracion procedemos a ejecutar este comando
+uwsgi --ini myapp.ini
+
+para ejecutarlo en segundo plano pero como hemos dicho antes se ejecutara en local
+
+una vez realizado lo anterior y haber instalado nginx
+
+procedemos modificar el siguiente archivo de configuracion para nuestro servidor
+ sudo nano /etc/nginx/sites-available/default
+
+una vez estado dentro procedemos agregar lo siguiente
+
+
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+
+    server_name _;
+
+    location / {
+        proxy_pass http://127.0.0.1:8000; --> esto debe sera dependiendo el puerto donde este ubicado 
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+
+una vez realizado lo anterior procedemos a reiniciar nginx
+sudo systemctl restart nginx

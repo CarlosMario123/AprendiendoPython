@@ -1,7 +1,7 @@
 import paho.mqtt.client as mqtt
 
 # Definir los parámetros del servidor MQTT
-broker_address = "54.172.38.119"
+broker_address = "srv502440.hstgr.cloud"
 port = 1883
 topic = "prueba/"
 username = "esp32"  # Reemplaza con tu nombre de usuario

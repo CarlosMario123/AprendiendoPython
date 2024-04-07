@@ -1,12 +1,13 @@
 import paho.mqtt.publish as publish
 import json
+import time
 
 # Configuración del servidor MQTT
-broker_address = "54.172.38.119"
+broker_address = "srv502440.hstgr.cloud"
 port = 1883
 topic = "prueba/"
-username = "esp32"  # Reemplaza con tu nombre de usuario
-password = "1234"  # Reemplaza con tu contraseña
+username = "esp32"  # nombre de usuario
+password = "1234"  # contraseña
 
 # Mensaje a publicar
 message = {
@@ -18,4 +19,9 @@ message = {
 json_message = json.dumps(message)
 
 # Publicar el mensaje con credenciales
-publish.single(topic, json_message, hostname=broker_address, port=port, auth={'username': username, 'password': password})
+for i in range(5):
+     time.sleep(2)
+     print("enviando.....")
+     publish.single(topic, json_message, hostname=broker_address, port=port, auth={'username': username, 'password': password})
+     
+
