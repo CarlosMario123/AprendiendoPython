@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MQTT Messages</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.js"></script>
+</head>
+<body>
+    <h1 class="font-bold text-3xl w-full text-center pt-4">Healt Software</h1>
+      <main class="flex w-full items-center justify-center h-screen gap-x-10">
+         <div class="flex flex-col bg-slate-100 w-64 h-72 items-center justify-center rounded-md shadow-black shadow-sm" >
+           <img src="https://uxwing.com/wp-content/themes/uxwing/download/medical-science-lab/heart-rate-icon.png" alt="" class="w-28 h-28">
+           <p id="bpm" class="font-bold text-2xl "></p>
+         </div>
+
+         <div class="flex flex-col bg-slate-100 w-64 h-72 items-center justify-center rounded-md shadow-black shadow-sm" >
+            <img src="https://w7.pngwing.com/pngs/506/698/png-transparent-respiratory-rate-health-care-handlaren-fr%C3%A5n-omsk-respiration-arterial-blood-gas-test-deterioration-text-measurement-logo.png" alt="" class="w-36 h-28">
+            <p id="spo2" class="font-bold text-2xl "></p>
+          </div>
+      </main>
+
+    <script>
+        // Conectar al servidor Socket.IO
+        const socket = io();
+
+        // Escuchar el evento 'mqtt_message' y mostrar los mensajes recibidos
+        socket.on('mqtt_message', function(message) {
+            let data = JSON.parse(message)
+            console.log(data)
+    
+            const bpm = document.getElementById('bpm');
+            bpm.innerHTML = data.bpm + " bpm"
+
+            const spo2 = document.getElementById("spo2")
+            spo2.innerHTML = data.spo2 + " spo2"
+        });
+    </script>
+</body>
+</html>

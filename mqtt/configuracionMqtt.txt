@@ -6,7 +6,7 @@ sudo systemctl start mosquitto-->encender el servidor mosquito
 sudo systemctl status mosquito  -> verificamos el status
 
 
-sudo nano /etc/mosquitto/mosquitto.conf-->editamos
+-->editamos
 
 sudo systemctl restart mosquitto-->reiniciamos el servidor para los cambios
 

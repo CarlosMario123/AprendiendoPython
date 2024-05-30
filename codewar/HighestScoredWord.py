@@ -39,3 +39,24 @@ def valueChar(word):
 #solucion optimas
 def highOptimize(x):
     return max(x.split(), key=lambda k: sum(ord(c) - 96 for c in k))
+
+
+def spin_words(sentence):
+    textNew = ""
+    textArray = sentence.split()
+    isSpace = " "
+    for i in range(len(textArray)):
+        if  i < len(textArray) -1:
+            space = " "
+        else:
+            space = ""
+                    
+        if len(textArray[i]) >= 5:
+            cadenaT = textArray[i]
+            textNew += cadenaT[::-1] + space
+        else:
+            textNew += textArray[i] + space
+    return textNew
+
+
+print(spin_words("Hey fellow warriors"))
