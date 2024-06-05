@@ -1,0 +1,53 @@
+Objetos y Clases
+
+cv2.VideoCapture: Clase para capturar video desde la cámara o un archivo de video.
+cv2.VideoWriter: Clase para escribir video en un archivo.
+cv2.CascadeClassifier: Clase para cargar un modelo de clasificación en cascada para la detección de objetos.
+cv2.BackgroundSubtractor: Clase base para crear objetos de sustracción de fondo.
+cv2.KalmanFilter: Clase para implementar un filtro de Kalman.
+
+Funciones Comunes
+Lectura y Escritura de Imágenes y Videos
+cv2.imread(): Lee una imagen de un archivo.
+cv2.imwrite(): Escribe una imagen en un archivo.
+cv2.imshow(): Muestra una imagen en una ventana.
+cv2.VideoCapture(): Inicializa la captura de video.
+cv2.VideoWriter(): Inicializa la escritura de video.
+Operaciones Básicas con Imágenes
+cv2.cvtColor(): Convierte una imagen de un espacio de color a otro.
+cv2.resize(): Cambia el tamaño de una imagen.
+cv2.flip(): Voltea una imagen horizontal o verticalmente.
+cv2.rotate(): Rota una imagen en 90 grados.
+cv2.threshold(): Aplica una operación de umbral a una imagen.
+cv2.adaptiveThreshold(): Aplica un umbral adaptativo a una imagen.
+Filtros y Transformaciones
+cv2.GaussianBlur(): Aplica un desenfoque gaussiano a una imagen.
+cv2.medianBlur(): Aplica un desenfoque mediano a una imagen.
+cv2.bilateralFilter(): Aplica un filtro bilateral a una imagen.
+cv2.erode(): Erosiona una imagen.
+cv2.dilate(): Dilata una imagen.
+cv2.morphologyEx(): Realiza una operación morfológica avanzada.
+cv2.Sobel(): Aplica un filtro Sobel para detectar bordes.
+cv2.Canny(): Aplica el detector de bordes de Canny.
+Detección y Reconocimiento de Objetos
+cv2.HoughLines(): Detecta líneas en una imagen usando la transformación de Hough.
+cv2.HoughCircles(): Detecta círculos en una imagen usando la transformación de Hough.
+cv2.findContours(): Encuentra contornos en una imagen.
+cv2.drawContours(): Dibuja contornos en una imagen.
+cv2.matchTemplate(): Realiza una búsqueda de plantillas.
+Operaciones Geométricas y Aritméticas
+cv2.add(): Suma dos imágenes.
+cv2.subtract(): Resta una imagen de otra.
+cv2.multiply(): Multiplica dos imágenes.
+cv2.divide(): Divide una imagen entre otra.
+cv2.bitwise_and(): Realiza una operación AND bit a bit en dos imágenes.
+cv2.bitwise_or(): Realiza una operación OR bit a bit en dos imágenes.
+cv2.bitwise_xor(): Realiza una operación XOR bit a bit en dos imágenes.
+cv2.bitwise_not(): Realiza una operación NOT bit a bit en una imagen.
+Funciones de Dibujado
+cv2.line(): Dibuja una línea en una imagen.
+cv2.rectangle(): Dibuja un rectángulo en una imagen.
+cv2.circle(): Dibuja un círculo en una imagen.
+cv2.putText(): Dibuja texto en una imagen.
+cv2.polylines(): Dibuja líneas poligonales en una imagen.
+cv2.fillPoly(): Rellena un polígono en una imagen.
