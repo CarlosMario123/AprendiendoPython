@@ -11,5 +11,5 @@ cliente = Client(tw_sid, tw_token)
 message = cliente.messages.create(
     body="hola mundo",
     from_ = tw_phone,
-    to ="numero a enviar"
+    to ="+529651214832"
 )

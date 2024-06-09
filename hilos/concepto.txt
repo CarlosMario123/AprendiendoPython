@@ -1,0 +1,2 @@
+Los hilos (o threads en inglés) en Python son una manera de ejecutar múltiples operaciones concurrentemente dentro de un mismo proceso. 
+Cada hilo puede ejecutarse independientemente, lo que permite realizar tareas en paralelo y mejorar la eficiencia de los programas.
